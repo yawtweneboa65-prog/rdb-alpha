@@ -79,6 +79,8 @@ then
   BIKE_INFO=$($PSQL "SELECT size, type FROM bikes WHERE bike_id = '$BIKE_ID_TO_RENT';")
   echo $BIKE_INFO
   # send to main menu
+  
+BIKE_INFO_FORMATTED=$(echo $BIKE_INFO | sed 's/ |/"/')
   fi
   
   fi
