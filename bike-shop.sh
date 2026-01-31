@@ -80,7 +80,7 @@ then
   echo $BIKE_INFO
   # send to main menu
   
-BIKE_INFO_FORMATTED=$(echo $BIKE_INFO | sed 's/ |/"/')
+  BIKE_INFO_FORMATTED=$(echo $BIKE_INFO | sed 's/ |/"/')
   fi
   
   fi
