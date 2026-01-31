@@ -24,3 +24,4 @@ echo '28 | Mountain'
 ./bike-shop.sh
 echo ' M e '
 echo "$(echo ' M e ')."
+$(echo ' M e ' | sed <pattern>)
